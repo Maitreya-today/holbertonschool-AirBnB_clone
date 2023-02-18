@@ -1,67 +1,142 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Search Results</title>
-    <link rel="stylesheet" href="styles/4-common.css">
-    <link rel="stylesheet" href="styles/3-header.css">
-    <link rel="stylesheet" href="styles/3-footer.css">
-    <link rel="stylesheet" href="styles/6-filters.css">
-    <link rel="stylesheet" href="styles/8-places.css">
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <!-- Header content -->
-      </div>
-    </header>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="icon" href="images/icon.png" />
+		<link rel="stylesheet" href="styles/6-filters.css">
+		<link rel="stylesheet" href="styles/4-common.css">
+		<link rel="stylesheet" href="styles/3-header.css">
+		<link rel="stylesheet" href="styles/3-footer.css">
+		<link rel="stylesheet" href="styles/8-places.css">
+		<title>AirBnB Clone</title>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+			</div>
+		</header>
+		<div class="container">
+			<section class="filters">
+				<div class="locations">
+					<h3>States</h3>
+					<h4>California, New York...</h4>
+					<ul class="popover">
+						<li><h2>Arizona</h2>
+						<ul>
+							<li>Page</li>
+							<li>Page 2</li>
+						</ul>
+					</li>
+					<li><h2>California</h2>
+					<ul>
+						<li>San Francisco</li>
+						<li>Los Altos</li>
+					</ul>
+				</li>
+			</ul>
+				  </div>
+				  <div class="amenities">
+					<h3>Amenities</h3>
+					<h4>Laundry, Internet...</h4>
+					<ul class="popover">
+						<li>Internet</li>
+						<li>TV</li>
+						<li>Kitchen</li>
+						<li>Iron</li>
 
-    <main>
-      <section class="filters">
-        <div class="container">
-          <!-- Filters content -->
-        </div>
-      </section>
-
-      <section class="places">
-        <div class="container">
-          <h1>Places</h1>
-          <article>
-            <h2>Place name</h2>
-            <div class="price_by_night">$200</div>
-            <div class="information">
-              <div class="max_guest">
-                <i class="fa fa-users" aria-hidden="true"></i>
-                <br>
-                Max guests: 5
-              </div>
-              <div class="number_rooms">
-                <i class="fa fa-bed" aria-hidden="true"></i>
-                <br>
-                Bedrooms: 3
-              </div>
-              <div class="number_bathrooms">
-                <i class="fa fa-bath" aria-hidden="true"></i>
-                <br>
-                Bathrooms: 2
-              </div>
-            </div>
-            <div class="user">
-              Owner: <strong>Fake user</strong>
-            </div>
-            <div class="description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis velit non erat convallis vestibulum.
-            </div>
-          </article>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <div class="container">
-        <!-- Footer content -->
-      </div>
-    </footer>
-  </body>
+					</ul>
+				  </div>
+			  <button>
+				Search
+			  </button>
+			</section>
+			<section class="places">
+		  <h1>Places</h1>
+		  <article>
+			<h2>1428 Elm Street</h2>
+			<div class="price_by_night">
+			  <p>$666</p>
+			</div>
+			<div class="information">
+			  <div class="max_guest">
+				<div class="icon_guest"></div>
+				<p>10+ Victims</p>
+			  </div>
+			  <div class="number_rooms">
+				<div class="icon_bed"></div>
+				<p>3 Bedroom</p>
+			  </div>
+			  <div class="number_bathrooms">
+				<div class="icon_bath"></div>
+				<p>4 Bathroom</p>
+			  </div>
+			</div>
+			<div class="user">
+			  <p><b>Owner: </b>Freddy Krueger</p>
+			</div>
+			<div class="description">
+			  <p>Welcome to 1428 Elm Street, the iconic home that horror fans know and fear. This charming three-bedroom, two-bathroom house boasts a prime location in the heart of Springwood, within walking distance of local schools and shops. With its classic design and unique history, this property is perfect for those looking for a one-of-a-kind living experience.
+          While the house's past may be dark, its present is bright and inviting. The spacious living room features large windows that let in plenty of natural light, and the kitchen has been updated with modern appliances and sleek countertops. Each bedroom has ample closet space and comfortable furnishings, ensuring a restful night's sleep.
+          As the former home of Freddy Krueger, this property has garnered significant attention over the years. Your visit will be sure to end with a visit from the famed horror film killer. Enjoy until you don't! </p>
+			</div>
+		  </article>
+		  <article>
+			<h2>Hammock between two trees</h2>
+			<div class="price_by_night">
+			  <p>$420</p>
+			</div>
+			<div class="information">
+			  <div class="max_guest">
+				<div class="icon_guest"></div>
+				<p>1 Guests</p>
+			  </div>
+			  <div class="number_rooms">
+				<div class="icon_bed"></div>
+				<p>1 Bedroom</p>
+			  </div>
+			  <div class="number_bathrooms">
+				<div class="icon_bath"></div>
+				<p>0 Bathroom</p>
+			  </div>
+			</div>
+			<div class="user">
+			  <p><b>Owner: </b>Bob Marley</p>
+			</div>
+			<div class="description">
+			  <p>Enjoy the great outdoors, be sure to breath in the fresh air and herbs provided. You will fade into bliss inside this hammock.</p>
+			</div>
+		  </article>
+		  <article>
+			<h2>Grass Hut</h2>
+			<div class="price_by_night">
+			  <p>$47</p>
+			</div>
+			<div class="information">
+			  <div class="max_guest">
+				<div class="icon_guest"></div>
+				<p>8 Guests</p>
+			  </div>
+			  <div class="number_rooms">
+				<div class="icon_bed"></div>
+				<p>1 Bedrooms</p>
+			  </div>
+			  <div class="number_bathrooms">
+				<div class="icon_bath"></div>
+				<p>0 Bathrooms</p>
+			  </div>
+			</div>
+			<div class="user">
+			  <p><b>Owner: Navajo Tribe</b></p>
+			</div>
+			<div class="description">
+			  <p>This is a grass hut, please keep all fire outside the hut. Guest are welcome but the tribe will bring them thru initiation.</p>
+			</div>
+		  </article>
+			</section>
+		  </div>
+		<footer>
+			<p>Best School
+			</p>
+		</footer>
+	</body>
 </html>
-
